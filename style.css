@@ -218,3 +218,53 @@ img{
     margin-top: 15px;
     transition: 0.5s;
 }
+@media (max-width: 1900px){
+    img{
+        width: 400px;
+}
+}
+@media (max-width: 1300px){
+img{
+    width: 350px;
+}
+#landing-page > p, #doc-page > p, #survey-form > p{
+    font-size: 20px;
+}
+#landing-page > a, #doc-page > a, #survey-form > a{
+    font-size: 18px;    
+}
+#work > p{
+    font-size: 28px;
+}
+}
+@media (max-width: 1150px){
+img{
+    width: 300px;
+}
+#landing-page, #doc-page, #survey-form{
+    width: 100%;
+}
+#landing-page > p, #doc-page > p, #survey-form > p{
+    font-size: 14px;
+}
+#landing-page > a, #doc-page > a, #survey-form > a{
+    font-size: 16px;    
+}
+#work > p{
+    font-size: 20px;
+}
+#social > a > img{
+    width: 50px;
+}
+#contact > h1{
+    font-size: 108px;
+}
+#social > p{
+    font-size: 28px;
+}
+}
+@media (max-width: 1150px){
+    img{
+        width: 275px;
+    }
+}
