@@ -1,0 +1,220 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(fon.jpg);
+}
+#representation{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    width: 100%;
+    height: 960px;
+  }
+#header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; 
+  }
+#info{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+#info > p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+#info > h1{
+    margin: 0 0 5px 0;
+    opacity: 0.8; 
+    font-size: 180px;   
+    border-radius: 20px;
+    padding: 0 50px;
+    text-transform: lowercase;
+    border-bottom: 5px solid #000000; 
+}
+#header > a, #doc-page > a, #landing-page > a, #survey-form > a{
+    text-decoration: none;
+    margin: 0 50px 0 50px;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 22px;
+    background: #000000;
+    color: #ffffff; 
+}
+#header > a:hover{
+    box-shadow: 0px 0px 75px 10px #ffffff; 
+    transition: 0.5s;
+}
+#header > a:hover{
+    transition: 0.3s;
+    background: #000000;
+    color: #ffffff; 
+}
+#info > a{
+    margin: 20px;
+}
+#main{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#work{
+    font-size: 24px;
+    color: #000000;
+}
+#work > p{
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-family: 'Caveat', cursive;
+    
+}
+#still-ahead{
+    text-align: right;
+    margin-right: 50px;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 500px 100px #ffffff;
+}
+#doc-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background: #141313;
+}
+#landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    background: #E4E9E9;
+}
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    background: #FDFDFD;
+}
+#landing-page > p{
+    border-bottom: 1px solid #141313;
+}
+#doc-page > p{
+    border-bottom: 1px solid #E4E9E9;
+}
+#survey-form > p{
+    border-bottom: 1px solid #141313;
+}
+img{
+    width: 600px;
+}
+#doc-page > a, #landing-page > a, #survey-form > a{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+#doc-page > a:hover{
+    background: #E4E9E9;
+    color: #141313;
+    transition: 0.3s;
+}
+#landing-page > a:hover{
+    background: #141313;
+    color: #E4E9E9;
+    transition: 0.3s;
+}
+#survey-form > a:hover{
+    background: #141313;
+    color: #E4E9E9;
+    transition: 0.3s;
+}
+#doc-page > a{
+    border: 1px solid #E4E9E9;
+    background: #141313;
+    color: #E4E9E9;
+    margin-bottom: 10px;
+}
+#landing-page > a{
+    border: 1px solid #141313;
+    background: #E4E9E9;
+    color: #141313;
+    margin-bottom: 10px;
+}
+#survey-form > a{
+    border: 1px solid #141313;
+    background: #FDFDFD;
+    color: #141313;
+    margin-bottom: 10px;
+}
+#contact{
+    width: 100%;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#socialize{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+#social > a > img{
+    width: 75px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+#contact > h1{
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 144px;
+    color: #ffffff;
+}
+#social > p{
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+#social:hover{
+    margin-top: 15px;
+    transition: 0.5s;
+}
